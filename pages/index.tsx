@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ibnu Choldun</title>
+        <title>Ibnu Choldun | Personal Website</title>
         <meta name="description" content="Website Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.ico" />
