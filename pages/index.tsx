@@ -15,7 +15,8 @@ import Archive from "@/components/Archive";
 import { FaArrowAltCircleUp } from "react-icons/fa";
 
 export default function Home() {
-  const handleScroll = () => {
+  const handleScroll = (e: any) => {
+    e.preventDefault();
     const homeElement = document.getElementById("home");
     if (homeElement) {
       homeElement.scrollIntoView({
@@ -65,7 +66,8 @@ export default function Home() {
           <motion.a
             href="#"
             className="fixed bottom-7 md:right-24 xs:right-5 text-textGreen cursor-pointer text-3xl z-50"
-            onClick={() => handleScroll()}
+            onClick={handleScroll}
+            onTouchStart={() => {}}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
