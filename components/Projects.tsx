@@ -16,7 +16,7 @@ const Projects = () => {
       <SectionTitle title="Some Things I have Built" titleNo="03" />
       {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-        <div className="flex flex-col xl:flex-row gap-6">
+        <div className="flex flex-col xl:flex-row gap-6 p-2 ">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             href="https://my-animacare.netlify.app/"
@@ -49,7 +49,7 @@ const Projects = () => {
               and
               <span className="text-textGreen"> shopping for pet needs</span>
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark xs:flex-wrap xs:justify-start">
               <li>Javascript</li>
               <li>Bootstrap</li>
               <li>ExpressJs</li>
@@ -119,7 +119,7 @@ const Projects = () => {
               , <span className="text-textGreen">quizzes</span> and{" "}
               <span className="text-textGreen">art events</span>.
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark xs:flex-wrap xs:justify-start">
               <li>Javascript</li>
               <li>ReactJs</li>
               <li>Redux</li>
@@ -184,7 +184,7 @@ const Projects = () => {
               in indonesia and can{" "}
               <span className="text-textGreen">comment </span>
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark xs:flex-wrap xs:justify-start">
               <li>Javascript</li>
               <li>Webpack</li>
               <li>IndexDB</li>
@@ -243,7 +243,7 @@ const Projects = () => {
               <span className="text-textGreen"> Search</span> feature,{" "}
               <span className="text-textGreen">Comment</span> feature
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark xs:flex-wrap xs:justify-start">
               <li>Javascript</li>
               <li>ReactJs</li>
               <li>ChakraUI</li>

@@ -64,7 +64,7 @@ export default function Home() {
 
           <motion.a
             href="#"
-            className="fixed bottom-7 xl:right-24 sm:right-10 text-textGreen cursor-pointer text-3xl"
+            className="fixed bottom-7 md:right-24 xs:right-5 text-textGreen cursor-pointer text-3xl z-50"
             onClick={() => handleScroll()}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
