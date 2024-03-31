@@ -21,6 +21,8 @@ const AchievmentCard = ({ title, image, link }: Props) => {
             src={image}
             alt={title}
             className="min-w-full max-h-full object-cover"
+            width={500}
+            height={500}
           />
           <h2 className="text-base font-titleFont font-semibold tracking-wide group-hover:text-textGreen pt-2">
             {title}

@@ -23,8 +23,8 @@ const ArchiveCard = ({ title, des, listItem, link }: Props) => {
           <p className="text-sm mt-3">{des}</p>
         </div>
         <ul className="text-xs mdl:text-sm text-textDark flex items-center gap-2 justify-evenly flex-wrap">
-          {listItem.map((item, i) => (
-            <li key={i}>{item}</li>
+          {listItem.map((item) => (
+            <li key={item}>{item}</li>
           ))}
         </ul>
       </div>
