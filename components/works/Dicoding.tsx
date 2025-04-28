@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { TiArrowForward } from "react-icons/ti";
 
-const ReactBD = () => {
+const Dicoding = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -11,7 +12,13 @@ const ReactBD = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         Frontend Web and Backend Developer
-        <span className="text-textGreen tracking-wide">@Dicoding</span>
+        <Link
+          href={"https://www.dicoding.com/"}
+          target="_blank"
+          className="text-textGreen tracking-wide underline"
+        >
+          @Dicoding
+        </Link>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         Feb 2022 - Aug 2022
@@ -44,4 +51,4 @@ const ReactBD = () => {
   );
 };
 
-export default ReactBD;
+export default Dicoding;

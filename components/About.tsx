@@ -13,26 +13,43 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Ibnu Choldun and I love making things live on the
-            internet. My interest in web development started in early 2022 when
-            I joined Study Independen Certified Kampus Merdeka program by
-            choosing the Frontend and backend Developer path.
+            Hi! I’m a Meta Certified Frontend Developer with 3+ years of
+            experience in building fast, scalable, and user-friendly web
+            applications. I specialize in Next.js, React, Tailwind CSS, and
+            Strapi, ensuring top-notch performance and seamless user
+            experiences.
           </p>
           <p>
-            Fast-forward to today, and I had the privilege of working at{" "}
-            <span className="text-textGreen">
-              an advertising agency, a start-up, a huge corporation, and a
-              company.
-            </span>
+            With a strong foundation in Full-Stack Development, I have
+            successfully delivered 10+ real-world projects, including SaaS
+            platforms, e-commerce websites, and enterprise applications.
+          </p>
+          <p className="">
+            🔹 What I Can Do for You: <br />✅ Frontend Development – Next.js,
+            React, Tailwind CSS, TypeScript, shadcnUi ✅ Headless CMS & API
+            Integration – Strapi, Directus, Firebase <br />✅ Performance
+            Optimization – Faster load times & improved SEO (LCP, Lighthouse,
+            Core Web Vitals) <br />✅ Full-Stack Support – Node.js, Express.js,
+            PostgreSQL, MongoDB <br />✅ Responsive UI/UX – Ensuring a seamless
+            experience across all devices
+          </p>
+          <p>
+            🚀 Why Work With Me? <br />
+            🔹 Meta Certified – Verified expertise in modern frontend
+            technologies <br />
+            🔹 10+ successful projects – Proven track record in real-world
+            applications <br />
+            🔹 Clean, scalable, and maintainable code – Following industry best
+            practices <br />
+            🔹 Fast communication & problem-solving – Ensuring smooth
+            collaboration
+          </p>
+          <p>
+            💡 Let’s build something amazing together! Send me a message, and
+            let’s discuss how I can help with your project. 🚀
           </p>
           <p>Here are a few technologies I have been working with recently:</p>
-          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-6">
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              JavaScript (ES6+)
-            </li>
+          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
@@ -80,6 +97,30 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               Bootstrap
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Strapi
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              PostgreSQL
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Supabase
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Firebase
             </li>
           </ul>
         </div>

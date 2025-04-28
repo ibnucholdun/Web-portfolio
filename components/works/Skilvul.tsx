@@ -1,6 +1,7 @@
 import { TiArrowForward } from "react-icons/ti";
 import { motion } from "framer-motion";
-const Google = () => {
+import Link from "next/link";
+const Skilvul = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,7 +11,13 @@ const Google = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         Frontend Web Development
-        <span className="text-textGreen tracking-wide">@Skilvul</span>
+        <Link
+          href={"https://skilvul.com/"}
+          target="_blank"
+          className="text-textGreen tracking-wide underline"
+        >
+          @Skilvul
+        </Link>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         Aug 2022 - Dec 2022
@@ -43,4 +50,4 @@ const Google = () => {
   );
 };
 
-export default Google;
+export default Skilvul;

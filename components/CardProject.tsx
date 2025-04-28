@@ -25,11 +25,13 @@ const CardProject: React.FC<Props> = ({ project, key }) => {
       className={`flex flex-col gap-6 p-2 ${
         project.id % 2 === 0 ? "xl:flex-row-reverse" : "xl:flex-row"
       }`}
-      key={key}>
+      key={key}
+    >
       <Link
         className="w-full xl:w-1/2 h-auto relative group"
         href={project.link}
-        target="_blank">
+        target={`${project.link !== "" ? "_blank" : "_self"}`}
+      >
         <div>
           <Image
             className="w-full h-full object-contain"
@@ -44,7 +46,8 @@ const CardProject: React.FC<Props> = ({ project, key }) => {
       <div
         className={`w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right z-10 ${
           project.id % 2 === 0 ? "" : "xl:-ml-16"
-        }`}>
+        }`}
+      >
         <div>
           <p className="font-titleFont text-textGreen text-sm tracking-wide">
             Featured Project
@@ -55,7 +58,8 @@ const CardProject: React.FC<Props> = ({ project, key }) => {
         <p
           className={`bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md ${
             project.id % 2 === 0 ? "xl:-ml-16" : ""
-          }`}>
+          }`}
+        >
           {project.description}
         </p>
         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark xs:flex-wrap xs:justify-start">
@@ -67,19 +71,22 @@ const CardProject: React.FC<Props> = ({ project, key }) => {
           <Link
             className="hover:text-textGreen duration-300"
             href={project.github}
-            target="_blank">
+            target="_blank"
+          >
             <TbBrandGithub />
           </Link>
           <Link
             className="hover:text-textGreen duration-300"
             href={project.youtube}
-            target="_blank">
+            target="_blank"
+          >
             <AiOutlineYoutube />
           </Link>
           <Link
             className="hover:text-textGreen duration-300"
             href={project.link}
-            target="_blank">
+            target={`${project.link !== "" ? "_blank" : "_self"}`}
+          >
             <RxOpenInNewWindow />
           </Link>
         </div>
